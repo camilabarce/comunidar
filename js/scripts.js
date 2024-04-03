@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //! Mentores
 function fetchRandomUsers() {
-    fetch(`/assets/data/mentors.json`)
+    fetch(`../assets/data/mentors.json`)
     .then(response => response.json())
     .then(data => {
         const users = data;
